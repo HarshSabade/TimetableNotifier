@@ -1,104 +1,42 @@
-/* div{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #6DCAD0, #CC7070);
+    min-height: 100vh;
+}
+
+h1 {
+    letter-spacing: 0.00000000000000000000000000000000000000000001px;
+    font-size: 10vw;
+}
+
+select {
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 7px;
+    color: #AFAFAF;
+    border-color: transparent;
+    width: 50vw;
+    height:7vh ;
+}
+
+.head {
     display: flex;
-    align-items: center;
-    width: 25vw;
     justify-content: center;
-    border: 2px solid black;
-    background-color: skyblue;
     position: relative;
-    left: 0;
+    top: 25vh;
 }
-div:hover{
-    animation: name 7s ease-in-out 0s infinite forwards ;
+.select{
     display: flex;
-    align-items: center;
-    width: 25vw;
-    justify-content: center;
-    border: 2px solid black;
-    background-color: skyblue;
+    flex-direction: column;
     position: relative;
-    left: 0;
-}
-div::before{
-    content: "kjasdfhlksdj";
-}
-@keyframes name {
-    0%{
-        width: 25vw;
-        /* left: 0px; */
-    /* }
-    100%{
-        width: 50vw;
-        left: 25vw;
+    align-items: center;
+    top: 35vh;
+    gap: 10px;
     }
-} */ 
-.bg-white{
-    background-color: #fff;
-    
-}
-.bg-black{
-  background-color: #000;
-  
-}
-.pl-10{
-   padding-left: 100px;
-}
-.pr-10{
-  padding-right: 100px;
-}
-
-.pa{
-  padding: 30px;
-}
-.border {
-  border: 20px solid #3b3b3b;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.flex {
-  display: flex;
-}
-.flex-center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.flex-col {
-  flex-direction: column;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.align-start {
-  align-items: flex-start;
-}
-
-.align-end {
-  align-items: flex-end;
-}
-div{
-    height: 40vh;
-    width: 100%;
-    background-color: rebeccapurple;
-}
+    .text{
+        font-size: 5vw;
+    }
