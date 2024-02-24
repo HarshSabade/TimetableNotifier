@@ -4,16 +4,17 @@ function day() {
             function give() {
                   var interval = setInterval(function () {
                         var currentDate = new Date();
-                        if (currentDate.getHours() == 16 && currentDate.getDay() == 6/* && currentDate.getMinutes() == 34*/)
-                              window.location.href = "thursday f1.html"
-                        else if (currentDate.getHours() == 16 && currentDate.getDay() == 4 && currentDate.getMinutes() == 35){
-                              window.location.href = "thursday f2.html"
-                              notif()
+                        if (currentDate.getDay() == 6 && currentDate.getHours() == 16)
+                              window.location.href = "monday f1.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 16) {
+                              window.location.href = "monday f2.html"
                         }
-                        else if (currentDate.getHours() == 16 && currentDate.getDay() == 4 && currentDate.getMinutes() == 37)
-                              window.location.href = "thursday f3.html"
-                        else if (currentDate.getHours() == 16 && currentDate.getDay() == 4 && currentDate.getMinutes() == 38)
-                              window.location.href = "thursday f4.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 16)
+                              window.location.href = "monday f3.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 16)
+                              window.location.href = "monday f4.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 16)
+                              window.location.href = "upcoming mon.html"
                         else (
                               window.location.href = "nolec.html"
                         )
@@ -25,15 +26,15 @@ function day() {
             console.log("Not my division")
       }
 }
-window.onload = day()
-// window.onload=notif()
-function notif() {
-      Notification.requestPermission().then(perm => {
-            if (perm === "granted") {
-                  var notif = new Notification("Lunch Break", {
-                        body: "Next lecture: Lifeskill"
-                  }
-                  )
-            }
-      })
-}
+// window.onload = day()
+// // window.onload=notif()
+// function notif() {
+//       Notification.requestPermission().then(perm => {
+//             if (perm === "granted") {
+//                   var notif = new Notification("Lunch Break", {
+//                         body: "Next lecture: Lifeskill"
+//                   }
+//                   )
+//             }
+//       })
+// }
