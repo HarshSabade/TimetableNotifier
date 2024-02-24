@@ -4,7 +4,7 @@ function day() {
             function give() {
                   var interval = setInterval(function () {
                         var currentDate = new Date();
-                        if (currentDate.getHours() ==16  && currentDate.getDay() == 4 && currentDate.getMinutes() ==34)
+                        if (currentDate.getHours() ==16  && currentDate.getDay() == 6 /*&& currentDate.getMinutes() ==34*/)
                               window.location.href = "thursday f1.html"
                         else if (currentDate.getHours() ==16  && currentDate.getDay() == 4 && currentDate.getMinutes() == 35)
                               window.location.href = "thursday f2.html"
