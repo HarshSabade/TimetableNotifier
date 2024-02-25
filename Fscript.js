@@ -16,7 +16,7 @@ function day() {
                               window.location.href = "monday f5.html"
                         else if (currentDate.getDay() == 1 && currentDate.getHours() == 1 || currentDate.getHours() == 2)
                               window.location.href = "monday f6.html"
-                        else if (currentDate.getDay() == 0 || currentDate.getDay() == 1 && currentDate.getHours() < 9)
+                        else if (currentDate.getDay() == 1 && currentDate.getHours() < 9)
                               window.location.href = "upcoming mon.html"
                         else (
                               window.location.href = "nolec.html"
