@@ -21,7 +21,7 @@ function day() {
                         else (
                               window.location.href = "nolec.html"
                         )
-                  }, 1000);
+                  }, 2000);
             }
             give()
             // function give1() {
