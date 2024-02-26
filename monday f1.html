@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 
-<body>
+<body onload="day()">
     <div class="nav">
         <div class="head">
             <span>
                 <h1>Timetable Notifier</h1>
             </span>
-            <div class="select"><select name="divi" id="divi" onchange="day()">
+            <div class="select"><select name="divi" id="divi" onchange="day()" title="division">
                     <option value="placeholder" disabled>Select your division</option>
                     <option value="A" id="a">A</option>
                     <option value="B" id="b">B</option>
@@ -50,7 +50,9 @@
             <div class="location">Location - Classroom 6502</div>
         </div>
     </div>
-    <script src="Fscript1.js"></script>
+    <script src="Fscript1.js">
+        window.onload="day()"
+    </script>
 </body>
 
 </html>

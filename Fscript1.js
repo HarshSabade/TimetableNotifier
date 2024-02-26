@@ -29,6 +29,8 @@ function day() {
             console.log("Not my division")
       }
 }
+// window.onload=day()
+// window.onload=give()
 // window.onload = day()
 // // window.onload=notif()
 // function notif() {
