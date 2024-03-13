@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timetable notifier</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="stylel.css">
 </head>
 
 <body onload="day()">
@@ -14,7 +14,7 @@
             <span>
                 <h1>Timetable Notifier</h1>
             </span>
-            <div class="select"><select name="divi" id="divi" onchange="day()" title="division">
+            <div class="select"><select name="divi" id="divi" onchange="day()">
                     <option value="placeholder" disabled>Select your division</option>
                     <option value="A" id="a">A</option>
                     <option value="B" id="b">B</option>
@@ -39,15 +39,21 @@
     <div class="lecs">
         <div class="now">
             <div class="current">Ongoing</div>
-            <div class="lecture">Subject - Digital Systems</div>
-            <div class="faculty">Faculty - Samruddhi Shaha Mam</div>
-            <div class="location">Location - Classroom 6502</div>
+            <div class="lecture">
+                <pre>
+<u>Subject</u>:
+N5 Japanese Batch / A-1 German Exam
+<u>Location:</u>
+Classroom 6501 / Classroom 6406</pre>
+            </div>
+            <div class="faculty"></div>
+            <div class="location"></div>
         </div>
         <div class="then">
             <div class="next">Next</div>
-            <div class="lecture">Subject - Network Theory</div>
-            <div class="faculty">Faculty - Suwarna Shete Mam</div>
-            <div class="location">Location - Classroom 6502</div>
+            <div class="lecture">No Lectures</div>
+            <div class="faculty"></div>
+            <div class="location"></div>
         </div>
     </div>
     <script src="Fscript1.js"></script>
