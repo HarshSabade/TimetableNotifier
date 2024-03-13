@@ -55,6 +55,17 @@ function day() {
                               window.location.href = "wednesday f6.html"
                         else if (currentDate.getDay() == 3 && currentDate.getHours() == 15 || currentDate.getHours() == 16)
                               window.location.href = "wednesday f7.html"
+                        // For Thursday
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() <= 11 && currentDate.getMinutes() < 11)
+                              window.location.href = "upcoming thu.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 11 && currentDate.getMinutes() >= 10 || currentDate.getHours() == 12 && currentDate.getMinutes() < 11)
+                              window.location.href = "thursday f1.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 12 && currentDate.getMinutes() >= 10)
+                              window.location.href = "thursday f2.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 13 || currentDate.getHours() == 14)
+                              window.location.href = "thursday f3.html"
+                        else if (currentDate.getDay() == 4 && currentDate.getHours() == 15 || currentDate.getHours() == 16)
+                              window.location.href = "thursday f4.html"
                         else (
                               window.location.href = "nolec.html"
                         )
