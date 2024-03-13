@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable notifier</title>
+    <link rel="stylesheet" href="stylel.css">
+</head>
+
+<body onload="day()">
+    <div class="nav">
+        <div class="head">
+            <span>
+                <h1>Timetable Notifier</h1>
+            </span>
+            <div class="select"><select name="divi" id="divi" onchange="day()" title="division">
+                    <option value="placeholder" disabled>Select your division</option>
+                    <option value="A" id="a">A</option>
+                    <option value="B" id="b">B</option>
+                    <option value="C" id="c">C</option>
+                    <option value="D" id="d">D</option>
+                    <option value="E" id="e">E</option>
+                    <option value="F" id="f" selected>F</option>
+                    <option value="G" id="g">G</option>
+                    <option value="H" id="h">H</option>
+                    <option value="I" id="i">I</option>
+                    <option value="J" id="j">J</option>
+                    <option value="K" id="k">K</option>
+                    <option value="L" id="l">L</option>
+                    <option value="M" id="m">M</option>
+                    <option value="N" id="n">N</option>
+                    <option value="O" id="o">O</option>
+                    <option value="P" id="p">P</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="lecs">
+        <div class="now">
+            <div class="current">Ongoing</div>
+            <div class="lecture">
+                <pre>
+<u>Subject</u>:
+Life skills 
+<u>Faculty:</u>
+Sandip Kisave Sir(F1)/Pooja Potdar Mam(F2)
+<u>Location:</u>
+Classroom 6401(F1) / Classroom 6402(F2)</pre>
+            </div>
+            <div class="faculty"></div>
+            <div class="location"></div>
+        </div>
+        <div class="then">
+            <div class="next">Next</div>
+            <div class="lecture">No lectures</div>
+            <div class="faculty"></div>
+            <div class="location"></div>
+        </div>
+    </div>
+    <script src="Fscript1.js"></script>
+</body>
+
+</html>

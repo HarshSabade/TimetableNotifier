@@ -36,8 +36,25 @@ function day() {
                               window.location.href = "tuesday f5.html"
                         else if (currentDate.getDay() == 2 && currentDate.getHours() == 15)
                               window.location.href = "tuesday f6.html"
-                        else if (currentDate.getDay() == 2 && currentDate.getHours() == 16 || currentDate.getHours() == 17)
+                        else if (currentDate.getDay() == 2 && currentDate.getHours() == 16)
                               window.location.href = "tuesday f7.html"
+                        // For Wednesday
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() < 9)
+                              window.location.href = "upcoming wed.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 9)
+                              window.location.href = "wednesday f1.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 10)
+                              window.location.href = "wednesday f2.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 11 && currentDate.getMinutes() < 11)
+                              window.location.href = "wednesday f3.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 11 && currentDate.getMinutes() >= 10 || currentDate.getHours() == 12 && currentDate.getMinutes() < 11)
+                              window.location.href = "wednesday f4.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 12 && currentDate.getMinutes() >= 10)
+                              window.location.href = "wednesday f5.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 13 || currentDate.getHours() == 14)
+                              window.location.href = "wednesday f6.html"
+                        else if (currentDate.getDay() == 3 && currentDate.getHours() == 15 || currentDate.getHours() == 16)
+                              window.location.href = "wednesday f7.html"
                         else (
                               window.location.href = "nolec.html"
                         )
