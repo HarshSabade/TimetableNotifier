@@ -79,7 +79,7 @@ function day() {
                               window.location.href = "friday f4.html"
                         else if (currentDate.getDay() === 5 && currentDate.getHours() === 14)
                               window.location.href = "friday f5.html"
-                        else if (currentDate.getDay() === 5 && currentDate.getHours() === 15)
+                        else if (currentDate.getDay() === 5 && currentDate.getHours() === 15 || currentDate.getDay() === 5 && currentDate.getHours() === 16)
                               window.location.href = "friday f6.html"
                         else (
                               window.location.href = "nolec.html"
